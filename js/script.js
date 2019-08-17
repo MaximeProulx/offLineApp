@@ -15,7 +15,7 @@
     }
 
     var server = {
-        url: 'https://offline-app-maxime.herokuapp.com/',
+        url: 'https://offline-app-maxime.herokuapp.com/server.php',
         send: function (postDatas, successFunc) {
             $.ajax({
                 type: 'POST',
