@@ -15,7 +15,7 @@
     }
 
     var server = {
-        url: 'http://localhost/orangeK_api/server.php',
+        url: 'server/server.php',
         send: function (postDatas, successFunc) {
             $.ajax({
                 type: 'POST',
